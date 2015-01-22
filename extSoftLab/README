@@ -1,0 +1,3 @@
+Extract the softened Label
+
+These scripts extract the label from the valid data by using the fine-tuned CNN, and then soften them by using the 'temp' method introduced by Hinton.

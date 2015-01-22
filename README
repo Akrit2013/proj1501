@@ -1,0 +1,15 @@
+Detection Framework with Dark Knowledge
+
+This project tend to build a CNN based detection framework which contrains two steps
+
+
+1. Localization
+
+Instead of the traditional Selective Search framework, We plan to use a CNN network to generate the candidate bounding boxs. We hope our BBox generating precedure will take the advantage of the context information and the co-existence of the other objects.
+
+To overcome the potential overfitting problem, we plan to introduce the Dark Knowledge trick into our trainning procedure. Hope it will cause a better result.
+
+
+2. Classification
+
+This is a mainly traditional classification CNN framework. The improvement we want to do is taking the context output of the localization layer into consideration and make the classifier become a context awareness classifier.

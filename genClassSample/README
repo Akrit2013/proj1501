@@ -1,0 +1,4 @@
+Generate the image pathes which contains the training targets
+
+These scripts generate the object patches stored in the ~/datasets
+They should be used in caffe project and fine tune the caffe models.
